@@ -1,0 +1,13 @@
+input 0,output,timestamp
+How to find an element by XPath in Selenium?,"Use `driver.find_element(By.XPATH, ""xpath_expression"")`.  Ensure your XPath is accurate and unique.  Use browser developer tools to inspect elements and construct the XPath.  Consider using a more robust locator strategy if XPath is brittle.
+",2025-06-02 22:32:58.136013
+How to find an element by XPath in Selenium?,"Use `driver.find_element(By.XPATH, ""xpath_expression"")`.  Ensure your XPath is accurate and unique.  Use browser developer tools to inspect elements and construct the XPath.  Consider using a more robust locator strategy if XPath is brittle.
+",2025-06-02 22:33:00.900331
+Generate test data for user registration form,"**Valid Data:**  Multiple variations of valid names, emails, passwords (meeting length, complexity requirements), phone numbers, addresses (including international).
+
+**Invalid Data:** Empty fields,  too short/long fields, invalid email formats, weak passwords, special characters where prohibited, duplicate emails, future/past dates where applicable,  incorrect formats (e.g., phone number).
+
+**Boundary Data:**  Maximum and minimum lengths for all fields,  largest/smallest numeric values.
+
+**Edge Cases:**  Leading/trailing whitespace,  Unicode characters,  SQL injection attempts.
+",2025-06-02 23:36:50.546238

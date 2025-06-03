@@ -5,7 +5,7 @@ import gradio as gr
 from functools import lru_cache
 
 # Configure the Generative AI model
-genai.configure(api_key="AIzaSyAg1EPgnup3iHTzbRuvi10vTMwv4l8hZlA")
+genai.configure(api_key="API_Key")
 
 # IMPORTANT CHANGE: Using 'gemini-1.5-flash' as requested.
 # This model is generally available and good for quick responses.
